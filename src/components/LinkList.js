@@ -10,6 +10,7 @@ const FEED_QUERY = gql`
     allLinks {
       id
       description
+      url
       votes {
         id
       }
